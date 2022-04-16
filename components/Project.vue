@@ -4,6 +4,12 @@
         <div>
             <img src="../assets/img/404-ukraine.png" alt="site ukraine">
             <div class="project-img-filter"></div>
+            <div class="project-img-logo">
+                <img src="../assets/img/logo_404.png" alt="">
+            </div>
+            <div class="project-category">
+                <p>Projet associatif</p>
+            </div>
         </div>
         <div class="information">
             <div>
@@ -51,7 +57,7 @@ export default {
         height: 100px;
         position: relative;
         
-        img {
+        & > img {
             width: 320px;
             height: 100px;
             object-fit: cover;
@@ -63,6 +69,39 @@ export default {
             width: 320px;
             height: 100px;
             background: linear-gradient(0deg, rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.1));
+        }
+
+        .project-img-logo {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            top: 15%;
+            right: 10%;
+            border-radius: 6px;
+            box-shadow: 0px 4px 4px rgba(177, 177, 177, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 60px;
+            }
+        }
+
+        .project-category {
+            position: absolute;
+            background-color: $color-4;
+            padding: 5px 9px;
+            border-radius: 6px;
+            top: 6%;
+            left: 4%;
+
+            p {
+                font-size: 10px;
+                font-weight: $medium;
+                font-style: italic;
+            }
         }
     }
 
