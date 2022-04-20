@@ -85,14 +85,22 @@ export default {
             transform: translateY(-10px) translateZ(0px) scale(1);
         }
 
-        @media screen and (min-width: 800px) and (max-width: 1539px) {
+        @media screen and (min-width: 768px) and (max-width: 1539px) {
             transform: translateY(-10px) translateZ(0px) scale(0.7);
+        }
+
+        @include device-small {
+            transform: translateY(-10px) translateZ(0px) scale(0.6);
         }
 
     }
 
     .background {
         transform: translateY(-44px) translateZ(0px) scale(1);
+
+        @include device-small {
+            transform: translateY(14px) translateZ(0px) scale(1);
+        }
     }
 
     .foreground {
@@ -123,6 +131,10 @@ export default {
         color: rgba(255, 255, 255, 0.15);
         text-align: center;
         letter-spacing: 0.08em;
+
+        @include device-small {
+            font-size: 54px;
+        }
     }
 
     h1 {
@@ -130,11 +142,21 @@ export default {
         font-weight: $extrabold;
         letter-spacing: 0.02em;
         text-transform: uppercase;
+
+        @include device-small {
+            font-size: 32px;
+        }
     }
 
     &-title {
         text-align: center;
         color: white;
+
+        p {
+            @include device-small {
+                padding: 0 30px;
+            }
+        }
     }
 }
 </style>
