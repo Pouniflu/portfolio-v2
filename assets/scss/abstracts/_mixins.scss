@@ -1,0 +1,20 @@
+// ---------------------------------------------------------------------------------------------------
+// Responsive
+// ---------------------------------------------------------------------------------------------------
+@mixin device-small {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin device-medium {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin device-large {
+    @media screen and (min-width: 1025px) {
+        @content;
+    }
+}

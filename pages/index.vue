@@ -18,11 +18,18 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~assets/scss/abstracts/mixins';
 @import '~assets/scss/base/reset';
 @import '~assets/scss/base/typography';
 
 #body {
-  margin: 0 16vw;
+  @include device-small {
+    margin: 0 20px;
+  }
+
+  @include device-large {
+    margin: 0 16vw;
+  }
 }
 
 h3 {
