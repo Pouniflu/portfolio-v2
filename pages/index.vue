@@ -3,6 +3,7 @@
     <banner-home />
     <div id="body">
       <presentation />
+      <list-of-projects />
       <project />
       <project />
       <project />
@@ -13,12 +14,13 @@
 
 <script>
 import BannerHome from '~/components/BannerHome.vue'
+import ListOfProjects from '~/components/ListOfProjects.vue'
 import Presentation from '~/components/Presentation.vue'
 import Project from '~/components/Project.vue'
 
 export default {
   name: 'IndexPage',
-  components: { Project, BannerHome, Presentation },
+  components: { Project, BannerHome, Presentation, ListOfProjects },
 }
 </script>
 
@@ -37,6 +39,12 @@ export default {
   @include device-large {
     margin: 0 16vw;
   }
+}
+
+h2 {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 h3 {

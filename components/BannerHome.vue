@@ -90,7 +90,7 @@ export default {
         }
 
         @include device-small {
-            transform: translateY(-10px) translateZ(0px) scale(0.5);
+            transform: translateY(-10px) translateZ(0px) scale(0.7);
         }
 
     }

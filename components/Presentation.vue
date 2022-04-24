@@ -38,37 +38,35 @@ export default {
     }
 
     h2 {
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
         position: relative;
         margin-bottom: 16px;
 
-        &::before {
-            position: absolute;
-            content: "Présentation";
-            text-transform: uppercase;
-            font-weight: $bold;
-            color: rgba(32, 32, 32, 0.04);
-            font-size: 32px;
-            transform: rotate(-90deg);
-            top: 2vw;
+        // &::before {
+        //     position: absolute;
+        //     content: "Présentation";
+        //     text-transform: uppercase;
+        //     font-weight: $bold;
+        //     color: rgba(32, 32, 32, 0.04);
+        //     font-size: 32px;
+        //     transform: rotate(-90deg);
+        //     top: 2vw;
 
-            @media screen and (min-width: 1540px) {
-                left: -9vw;
-            }
+        //     @media screen and (min-width: 1540px) {
+        //         left: -9vw;
+        //     }
 
-            @media screen and (min-width: 1024px) and (max-width: 1539px) {
-                left: -11vw;
-            }
+        //     @media screen and (min-width: 1024px) and (max-width: 1539px) {
+        //         left: -11vw;
+        //     }
 
-            @include device-small {
-                display: none;
-            }
+        //     @include device-small {
+        //         display: none;
+        //     }
 
-            @include device-medium {
-                display: none;
-            }
-        }
+        //     @include device-medium {
+        //         display: none;
+        //     }
+        // }
     }
 
     p {
