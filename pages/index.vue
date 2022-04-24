@@ -2,6 +2,7 @@
   <div class="wrapper">
     <banner-home />
     <div id="body">
+      <presentation />
       <project />
       <project />
       <project />
@@ -12,11 +13,12 @@
 
 <script>
 import BannerHome from '~/components/BannerHome.vue'
+import Presentation from '~/components/Presentation.vue'
 import Project from '~/components/Project.vue'
 
 export default {
   name: 'IndexPage',
-  components: { Project, BannerHome },
+  components: { Project, BannerHome, Presentation },
 }
 </script>
 
@@ -27,7 +29,7 @@ export default {
 
 #body {
   scroll-behavior: smooth;
-  
+
   @include device-small {
     margin: 0 20px;
   }

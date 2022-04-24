@@ -86,11 +86,11 @@ export default {
         }
 
         @media screen and (min-width: 768px) and (max-width: 1539px) {
-            transform: translateY(-10px) translateZ(0px) scale(0.7);
+            transform: translateY(-10px) translateZ(0px) scale(0.6);
         }
 
         @include device-small {
-            transform: translateY(-10px) translateZ(0px) scale(0.6);
+            transform: translateY(-10px) translateZ(0px) scale(0.5);
         }
 
     }
