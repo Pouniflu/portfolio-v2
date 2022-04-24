@@ -23,7 +23,7 @@ export default {
 @import '~assets/scss/abstracts/mixins';
 @import '~assets/scss/base/typography';
 
-.list-projects {
+.list-projects {   
     h2 {
         position: relative;
         margin-bottom: 16px;

@@ -63,8 +63,7 @@ export default {
         display: block;
         position: absolute;
         right: 0;
-        top: 0;
-        bottom: 0;
+        bottom: -0.2%;
         height: 70vh;
         width: 100%;
         z-index: 10;

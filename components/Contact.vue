@@ -31,7 +31,7 @@ export default {
 
 .contact {
     position: relative;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 
 .contact-polygon {
@@ -39,7 +39,7 @@ export default {
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: -0.1%;
     bottom: 0;
     height: 70vh;
     width: 100%;
