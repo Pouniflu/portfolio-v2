@@ -4,10 +4,12 @@
     <div id="body">
       <presentation />
       <list-of-projects />
-      <project />
-      <project />
-      <project />
-      <project />
+      <div class="projets">
+        <project />
+        <project />
+        <project />
+        <project />
+      </div>
     </div>
     <contact />
     <footer>
@@ -43,6 +45,10 @@ export default {
     margin: 0 20px;
   }
 
+  @include device-medium {
+    margin: 0 6vw;
+  }
+
   @include device-large {
     margin: 0 16vw;
   }
@@ -64,6 +70,14 @@ h3 {
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
+}
+
+.projets {
+  @include device-medium {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
 
 footer {

@@ -30,6 +30,10 @@ export default {
         margin-bottom: 100px;
     }
 
+    @include device-medium {
+        margin-bottom: 100px;
+    }
+
     img {
         @include device-small {
             width: 80%;
@@ -78,7 +82,7 @@ export default {
 
         @include device-small {
             margin: 0 0;
-    }
+        }
     }
 
 }

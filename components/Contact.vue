@@ -32,6 +32,10 @@ export default {
 .contact {
     position: relative;
     margin-top: 180px;
+
+    @include device-medium {
+        margin-top: 100px;
+    }
 }
 
 .contact-polygon {
@@ -39,7 +43,7 @@ export default {
     display: block;
     position: absolute;
     right: 0;
-    top: -0.1%;
+    top: -0.2%;
     bottom: 0;
     height: 70vh;
     width: 100%;

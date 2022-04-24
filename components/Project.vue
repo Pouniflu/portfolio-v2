@@ -160,7 +160,7 @@ export default {
     }
 
     @include device-medium {
-        width: 50%;
+        width: 44%;
         display: flex;
         box-shadow: 0px 4px 4px rgba(155, 155, 155, 0.25);
         border-radius: 10px;
