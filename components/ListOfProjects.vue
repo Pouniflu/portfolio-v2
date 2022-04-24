@@ -64,6 +64,8 @@ export default {
         margin-bottom: 60px;
 
         @include device-small {
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
         }
 
@@ -77,7 +79,7 @@ export default {
             font-weight: $semibold;
 
             @include device-small {
-                margin-top: 22px;
+                margin: 22px 0 0 0;
             }
         }
 
