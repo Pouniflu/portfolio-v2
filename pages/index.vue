@@ -9,18 +9,20 @@
       <project />
       <project />
     </div>
+    <contact />
   </div>
 </template>
 
 <script>
 import BannerHome from '~/components/BannerHome.vue'
+import Contact from '~/components/Contact.vue'
 import ListOfProjects from '~/components/ListOfProjects.vue'
 import Presentation from '~/components/Presentation.vue'
 import Project from '~/components/Project.vue'
 
 export default {
   name: 'IndexPage',
-  components: { Project, BannerHome, Presentation, ListOfProjects },
+  components: { Project, BannerHome, Presentation, ListOfProjects, Contact },
 }
 </script>
 
