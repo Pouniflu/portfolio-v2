@@ -4,11 +4,12 @@
             <img src="../assets/img/home-background.jpg" alt="">
             <div class="header-background-filter"></div>
         </div>
-        <p class="background">Portfolio</p>
-        <img class="middleground" src="../assets/img/claire.png" alt="">
+        <p class="background">Project</p>
+        <div class="middleground header-logo">
+            <img src="../assets/img/logo_404.png" alt="">
+        </div>
         <div class="header-title foreground">
-            <h1>Claire Brisbart</h1>
-            <p>Etudiante en gestion de projet spécialisé développement web</p>
+            <h1>La 404 DeVinci</h1>
         </div>
         <a href="#">Me contacter</a>
         <svg class="polygon" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
@@ -30,7 +31,7 @@ export default {
 
 .header {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -38,9 +39,45 @@ export default {
     transform-style: preserve-3d;
     z-index: -1;
 
+    &-logo {
+        position: absolute;
+        background: white;
+        width: 170px;
+        height: 170px;
+        border-radius: 6px;
+        box-shadow: 0px 4px 4px rgba(177, 177, 177, 0.25);
+
+        @media screen and (min-width: 1540px) {
+            bottom: 30%;
+            right: 16%;
+        }
+
+        @media screen and (min-width: 1025px) and (max-width: 1539px) {
+            bottom: 14%;
+            right: 10%;
+        }
+
+        @include device-medium {
+            bottom: 14%;
+            right: 10%;
+        }
+
+        @include device-small {
+            bottom: 0%;
+            right: 40%;
+            z-index: 20;
+        }
+
+        img {
+            padding: 14px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
     &-background {
         width: 100%;
-        height: 70vh;
+        height: 50vh;
         z-index: -1;
 
         img {
@@ -64,16 +101,16 @@ export default {
         position: absolute;
         right: 0;
         bottom: -0.2%;
-        height: 70vh;
+        height: 50vh;
         width: 100%;
         z-index: 10;
     }
 
     .background, .foreground {
         position: absolute;
-        top: 20vh;
+        top: 16vh;
         width: 100%;
-        height: 70vh;
+        height: 50vh;
         object-fit: cover;
     }
 
@@ -99,7 +136,7 @@ export default {
     }
 
     .background {
-        transform: translateY(-44px) translateZ(0px) scale(1);
+        transform: translateY(-80px) translateZ(0px) scale(1);
 
         @include device-small {
             transform: translateY(14px) translateZ(0px) scale(1);
@@ -107,7 +144,21 @@ export default {
     }
 
     .foreground {
-        transform: translateY(10px) translateZ(4px) scale(0.6);
+        @media screen and (min-width: 1540px) {
+            transform: translateY(36px) translateZ(4px) scale(0.6);
+        }
+
+        @media screen and (min-width: 1025px) and (max-width: 1539px) {
+            transform: translateY(24px) translateZ(4px) scale(0.6);
+        }
+
+        @include device-medium {
+            transform: translateY(36px) translateZ(4px) scale(0.6);
+        }
+
+        @include device-small {
+            transform: translateY(60px) translateZ(4px) scale(0.6);
+        }
     }
     
     a {
