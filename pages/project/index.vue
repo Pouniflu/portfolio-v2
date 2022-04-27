@@ -24,16 +24,18 @@
                     YouTube
                 </a>
             </div>
+            <competences-project />
         </div>
     </div>
 </template>
 
 <script>
 import BannerProject from '~/components/BannerProject.vue'
+import CompetencesProject from '~/components/CompetencesProject.vue'
 
 export default {
     name: 'projet-page',
-    components: { BannerProject, }
+    components: { BannerProject, CompetencesProject, }
 }
 </script>
 
@@ -91,6 +93,7 @@ h2 {
     &-button {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 120px;
 
         a {
             text-decoration: none;
@@ -159,6 +162,7 @@ h2 {
 
     p {
         margin-bottom: 28px;
+        font-size: 16px;
     }
 }
 </style>
