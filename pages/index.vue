@@ -5,22 +5,20 @@
       <presentation />
       <list-of-projects />
       <div class="projets">
-        <project />
-        <project />
-        <project />
-        <project />
+        <project v-for="project in projects" :key="project.slug" :project="project" />
       </div>
     </div>
     <contact />
     <footer>
       <p>
-        © Copyright Claire Brisbart 2022 - Tous droits réservé | <a href="#">Mentions légales</a>
+        © Copyright Claire Brisbart 2022 - Tous droits réservés | <a href="#">Mentions légales</a>
       </p>
     </footer>
   </div>
 </template>
 
 <script>
+import projects from '~/content/data'
 import BannerHome from '~/components/BannerHome.vue'
 import Contact from '~/components/Contact.vue'
 import ListOfProjects from '~/components/ListOfProjects.vue'
@@ -29,7 +27,18 @@ import Project from '~/components/Project.vue'
 
 export default {
   name: 'IndexPage',
-  components: { Project, BannerHome, Presentation, ListOfProjects, Contact },
+  components: { 
+    Project, 
+    BannerHome, 
+    Presentation, 
+    ListOfProjects, 
+    Contact 
+  },
+  data() {
+    return {
+      projects: projects
+    }
+  }
 }
 </script>
 

@@ -1,15 +1,15 @@
 <template>
     <header class="header">
         <div class="header-background">
-            <img src="../assets/img/home-background.jpg" alt="">
+            <img src="~/assets/img/home-background.jpg" alt="">
             <div class="header-background-filter"></div>
         </div>
         <p class="background">Project</p>
-        <div class="middleground header-logo">
-            <img src="../assets/img/logo_404.png" alt="">
+        <div class="middleground header-logo" v-if="project.logo">
+            <img :src="require(`~/assets/img/projects/${project.logo}`)" alt="">
         </div>
         <div class="header-title foreground">
-            <h1>La 404 DeVinci</h1>
+            <h1>{{ project.entreprise }}</h1>
         </div>
         <a href="#">Me contacter</a>
         <svg class="polygon" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
@@ -20,7 +20,10 @@
 
 <script>
 export default {
-  name: 'banner-home'
+  name: 'banner-home',
+  props: [
+      'project'
+  ]
 }
 </script>
 
@@ -42,10 +45,13 @@ export default {
     &-logo {
         position: absolute;
         background: white;
-        width: 170px;
-        height: 170px;
+        width: 168px;
+        height: 168px;
         border-radius: 6px;
         box-shadow: 0px 4px 4px rgba(177, 177, 177, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         @media screen and (min-width: 1540px) {
             bottom: 30%;
@@ -71,7 +77,6 @@ export default {
         img {
             padding: 14px;
             width: 100%;
-            height: 100%;
         }
     }
 

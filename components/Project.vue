@@ -3,27 +3,27 @@
         <div></div>
         <div>
             <div>
-                <img src="../assets/img/404-ukraine.png" alt="site ukraine">
+                <img :src="require(`~/assets/img/projects/${project.image}`)" alt="site ukraine">
                 <div class="project-img-filter"></div>
                 <div class="project-img-logo">
-                    <img src="../assets/img/logo_404.png" alt="">
+                    <img :src="require(`~/assets/img/projects/${project.logo}`)" alt="">
                 </div>
                 <div class="project-category">
-                    <p>Projet associatif</p>
+                    <p>{{ project.category }}</p>
                 </div>
             </div>
             <div class="information">
                 <div>
                     <div class="information-title">
-                        <h3>Site pour l'Ukraine</h3>
+                        <h3>{{ project.title }}</h3>
                         <div class="information-links">
                             <a href=""><img src="../assets/img/instagram.png" alt=""></a>
                             <a href=""><img src="../assets/img/website.png" alt=""></a>
                         </div>
                     </div>
-                    <p>Assistante chef de projet digital chez Planète Energies, initiative de TotalEnergies Foundation donnant des clés de compréhension aux jeunes sur toutes les énergies.</p>
+                    <p>{{ project.short_description }}</p>
                 </div>
-                <a href="#">En savoir plus</a>
+                <a :href="'/' + project.slug">En savoir plus</a>
             </div>
         </div>
     </article>
@@ -31,7 +31,10 @@
 
 <script>
 export default {
-  name: 'project'
+  name: 'project',
+  props: [
+      'project'
+  ]
 }
 </script>
 
@@ -57,6 +60,7 @@ export default {
 
         & > div:nth-of-type(2) {
             display: flex;
+            width: 100%;
         }
 
         & > div:nth-of-type(2) > div:first-child{
@@ -140,6 +144,7 @@ export default {
 
             & > div {
                 margin-left: 4%;
+                width: 100%;
             }
 
             p {

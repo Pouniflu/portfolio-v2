@@ -1,12 +1,12 @@
 <template>
     <div class="wrapper">
-        <banner-project />
+        <banner-project :project="project" />
         <div class="project-page" id="body">
             <div class="project-page-title">
-                <h2>Description du projet</h2>
-                <span>Projet associatif</span>
+                <h2>Description</h2>
+                <span>{{ project.category }}</span>
             </div>
-            <p>Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes, novum parumque aliquando temptatum commentum adgressus. quod si impetrasset, fulminis modo cuncta vastarat. erat autem quod cogitabat huius modi.</p>
+            <p>{{ project.details }}</p>
             <div class="project-page-button">
                 <a id="instagram" href="#">
                     Instagram
@@ -30,12 +30,27 @@
 </template>
 
 <script>
+import projects from '~/content/data'
 import BannerProject from '~/components/BannerProject.vue'
 import CompetencesProject from '~/components/CompetencesProject.vue'
 
 export default {
     name: 'projet-page',
-    components: { BannerProject, CompetencesProject, }
+    components: { 
+        BannerProject, 
+        CompetencesProject, 
+    },
+    data() {
+        return {
+            project: []
+        }
+    },
+    mounted() {
+        this.project = projects.find(project => project.slug === this.$route.params.slug)
+        if(!this.project) {
+            this.$router.push('/404')
+        }
+    }
 }
 </script>
 

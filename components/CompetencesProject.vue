@@ -26,6 +26,10 @@ export default {
 .project-page-competences {
     display: flex;
 
+    li {
+        margin-left: 40px;
+    }
+
     @media screen and (min-width: 1540px) {
         justify-content: space-around;
     }
@@ -48,10 +52,6 @@ export default {
         img {
             width: 80%;
             margin: 0 auto 40px;
-        }
-
-        li {
-            margin-left: 20px;
         }
     }
 }
