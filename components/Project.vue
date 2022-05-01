@@ -1,6 +1,15 @@
 <template>
     <article class="project">
-        <div></div>
+        <div :style="{ backgroundColor: project.category == 'Alternance/Stage' 
+                                                         ?   '#F97F9C'
+                                                         : project.category == 'Projet étudiant'
+                                                                            ? '#FC9E4F'
+                                                                            : project.category == 'Projet personnel'
+                                                                                                ? '#93E7D3'
+                                                                                                : project.category == 'Projet associatif'
+                                                                                                                    ? '#B9D8FD'
+                                                                                                                    : '#AC85FE'
+        }"></div>
         <div>
             <div>
                 <img :src="require(`~/assets/img/projects/${project.image}`)" alt="site ukraine">
@@ -8,7 +17,16 @@
                 <div class="project-img-logo">
                     <img :src="require(`~/assets/img/projects/${project.logo}`)" alt="">
                 </div>
-                <div class="project-category">
+                <div class="project-category" :style="{ backgroundColor: project.category == 'Alternance/Stage' 
+                                                         ?   '#F97F9C'
+                                                         : project.category == 'Projet étudiant'
+                                                                            ? '#FC9E4F'
+                                                                            : project.category == 'Projet personnel'
+                                                                                                ? '#93E7D3'
+                                                                                                : project.category == 'Projet associatif'
+                                                                                                                    ? '#B9D8FD'
+                                                                                                                    : '#AC85FE'
+                }">
                     <p>{{ project.category }}</p>
                 </div>
             </div>
@@ -23,7 +41,16 @@
                     </div>
                     <p>{{ project.short_description }}</p>
                 </div>
-                <a :href="'/' + project.slug">En savoir plus</a>
+                <a :href="'/' + project.slug" :style="{ color: project.category == 'Alternance/Stage' 
+                                                         ?   '#F97F9C'
+                                                         : project.category == 'Projet étudiant'
+                                                                            ? '#FC9E4F'
+                                                                            : project.category == 'Projet personnel'
+                                                                                                ? '#93E7D3'
+                                                                                                : project.category == 'Projet associatif'
+                                                                                                                    ? '#B9D8FD'
+                                                                                                                    : '#AC85FE'
+                }">En savoir plus</a>
             </div>
         </div>
     </article>
@@ -53,7 +80,6 @@ export default {
     @include device-large {
         & > div:first-child {
             width: 20px;
-            background-color: $color-4;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
         }
@@ -103,7 +129,6 @@ export default {
 
             .project-category {
                 position: absolute;
-                background-color: $color-4;
                 padding: 5px 9px;
                 border-radius: 6px;
                 top: 6%;
@@ -159,7 +184,6 @@ export default {
                 font-size: 12px;
                 font-weight: $semibold;
                 margin-right: 16px;
-                color: $color-4;
             }
         }
     }
