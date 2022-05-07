@@ -11,7 +11,7 @@
         <div class="header-title foreground">
             <h1>{{ project.entreprise }}</h1>
         </div>
-        <a href="#">Me contacter</a>
+        <a href="#contact">Me contacter</a>
         <svg class="polygon" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
             <polygon points="0,0 0,60 100,100 0,100" />
         </svg>

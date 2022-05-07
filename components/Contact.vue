@@ -1,5 +1,5 @@
 <template>
-    <div class="contact">
+    <div id="contact" class="contact">
         <svg class="contact-polygon" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
             <polygon points="0,0 100,0 0,60 0,0" />
         </svg>
