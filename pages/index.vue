@@ -20,11 +20,6 @@
       </div>
     </div>
     <contact />
-    <footer>
-      <p>
-        © Copyright Claire Brisbart 2022 - Tous droits réservés | <a href="#">Mentions légales</a>
-      </p>
-    </footer>
   </div>
 </template>
 
@@ -256,26 +251,4 @@ h3 {
     justify-content: space-evenly;
   }
 }
-
-footer {
-  background: #252525;
-  color: white;
-  height: 80px;
-  font-weight: $light;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  @include device-small {
-    padding: 0 20px;
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-  }
-}
-
 </style>

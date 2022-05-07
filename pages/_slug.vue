@@ -8,24 +8,25 @@
             </div>
             <p>{{ project.details }}</p>
             <div class="project-page-button">
-                <a id="instagram" href="#">
+                <a v-if="project.instagram != ''" id="instagram" :href="project.instagram" target="_blank">
                     Instagram
                 </a>
-                <a id="website" href="#">
+                <a v-if="project.site_internet != ''" id="website" :href="project.site_internet" target="_blank">
                     Site internet
                 </a>
-                <a id="twitter" href="#">
+                <a v-if="project.twitter != ''" id="twitter" :href="project.twitter" target="_blank">
                     Twitter
                 </a>
-                <a id="linkedin" href="#">
+                <a v-if="project.linkedin != ''" id="linkedin" :href="project.linkedin" target="_blank">
                     LinkedIn
                 </a>
-                <a id="youtube" href="#">
+                <a v-if="project.youtube != ''" id="youtube" :href="project.youtube" target="_blank">
                     YouTube
                 </a>
             </div>
             <competences-project />
         </div>
+        <contact />
     </div>
 </template>
 
@@ -116,20 +117,15 @@ h2 {
             font-size: 16px;
             padding: 4px 16px;
             border-radius: 10px;
-            margin: 0 16px 16px;
+            margin: 0 16px 16px 0;
         }
 
         #instagram {
-            background: $instagram;
-            background-clip: border-box;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: $instagram;
+            border: 2px solid $instagram;
 
             &:hover {
                 background: $instagram;
-                background-clip: initial;
-                -webkit-background-clip: initial;
-                -webkit-text-fill-color: initial;
                 color: white;
             }
         }
