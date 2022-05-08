@@ -35,8 +35,11 @@
                     <div class="information-title">
                         <h3>{{ project.title }}</h3>
                         <div class="information-links">
-                            <a href=""><img src="../assets/img/instagram.png" alt=""></a>
-                            <a href=""><img src="../assets/img/website.png" alt=""></a>
+                            <a v-if="project.instagram != ''" :href="project.instagram" target="_blank"><img src="../assets/img/instagram_small.png" alt=""></a>
+                            <a v-if="project.twitter != ''" :href="project.twitter" target="_blank"><img src="../assets/img/twitter_small.png" alt=""></a>
+                            <a v-if="project.youtube != ''" :href="project.youtube" target="_blank"><img src="../assets/img/youtube_small.png" alt=""></a>
+                            <a v-if="project.site_internet != ''" :href="project.site_internet" target="_blank"><img src="../assets/img/website_small.png" alt=""></a>
+                            <a v-if="project.linkedin != ''" :href="project.linkedin" target="_blank"><img src="../assets/img/linkedin_small.png" alt=""></a>
                         </div>
                     </div>
                     <p>{{ project.short_description }}</p>

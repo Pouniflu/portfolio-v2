@@ -1,12 +1,12 @@
 <template>
     <div class="wrapper">
         <banner-project :project="project" />
-        <div class="project-page" id="body">
+        <div v-if="project.details" class="project-page" id="body">
             <div class="project-page-title">
                 <h2>Description</h2>
                 <span>{{ project.category }}</span>
             </div>
-            <p>{{ project.details }}</p>
+            <p v-for="n in project.details.length" :key="n">{{ project.details[n-1] }}<br></p>
             <div class="project-page-button">
                 <a v-if="project.instagram != ''" id="instagram" :href="project.instagram" target="_blank">
                     Instagram
@@ -24,7 +24,7 @@
                     YouTube
                 </a>
             </div>
-            <competences-project />
+            <competences-project :project="project" />
         </div>
         <contact />
     </div>

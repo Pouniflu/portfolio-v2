@@ -4,11 +4,7 @@
         <div>
             <h2>Compétences développées</h2>
             <ul>
-                <li>Liste 1</li>
-                <li>Liste 2</li>
-                <li>Liste 3</li>
-                <li>Liste 4</li>
-                <li>Liste 5</li>
+                <li v-for="n in project.competences.length" :key="n">{{ project.competences[n-1] }}</li>
             </ul>
         </div>
     </div>
@@ -17,6 +13,9 @@
 <script>
 export default {
     name: 'competences-project',
+    props: [
+      'project'
+    ]
 }
 </script>
 

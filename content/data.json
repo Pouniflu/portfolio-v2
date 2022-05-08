@@ -7,7 +7,21 @@
         "entreprise": "TotalEnergies",
         "category": "Alternance/Stage",
         "short_description": "Assistante chef de projet digital chez Planète Energies, initiative de TotalEnergies Foundation donnant des clés de compréhension aux jeunes sur toutes les énergies.",
-        "details": "Assistante chef de projet digital chez Planète Energies, initiative de TotalEnergies Foundation donnant des clés de compréhension aux jeunes sur toutes les énergies.",
+        "details": [
+            "Planète Energies est une initiative de TotalEnergies Fondation ayant pour vocation de faire comprendre toutes les énergies aux 12-18 ans. Pour cela, de nombreuses actions sont mises en place : site internet avec plus de 500 contenus, réseaux sociaux actifs, événements en physique, conférences en classe gratuites et réalisées par des experts à commander… ",
+            "Arrivée en mai 2021 pour un stage de 4 mois, je suis restée en alternance jusqu’en juillet 2022. J’ai notamment travaillé sur le projet de refonte du site internet, pour le passer d’un Drupal 7 à un Drupal 9. L’objectif était également de mieux correspondre à la cible après un repositionnement de la marque, en intégrant un meilleur UX et UI. J’y ai développé mes compétences en gestion de projet, gestion des risques et sur la méthode agile. Voici les travaux que j’ai suivis : accompagnement de l’équipe, relecture des spécifications fonctionnelles et techniques, travail sur le Product Backlog, participation aux comités projets, kick-off, pré-game et aux différents ateliers, recettage avec Redmine…",
+            "J’ai également travaillé sur la partie éditoriale en m’occupant par exemple de la gestion des contenus à migrer (tri, suppression et conséquences avec des audits et crawls réguliers faits par notre prestataire sur le site). De plus, j’ai eu un projet de mise à jour des contenus à traiter : il fallait remettre à la charte des contenus venant d’un autre site de TotalEnergies, Total Solar Expert, car celui-ci a définitivement fermé ses portes fin janvier 2022. Planète Energies en avait profité pour garder quelques contenus sur l’énergie solaire comme des tutos et ateliers à réaliser en classe.",
+            "Enfin, j’ai acquis des compétences en communication digitale et en marketing. En effet, je me suis occupée chaque mois du tableau de bord mensuel du site, réunissant tous les statistiques de Planète Energies, du site en passant aux conférences en passant par les réseaux sociaux. Je me suis également occupée des statistiques de chaque newsletter envoyée sur l’année scolaire 2021/2022. Enfin, j’ai fait du community management sur Twitter, YouTube et Yammer en suivant notre calendrier éditorial que je remplissais régulièrement. Grâce à cela, nous avons vu notre nombre d’abonnés et notre notoriété grimper !"
+        ],
+        "competences": [
+            "Méthode Agile",
+            "Gestion de projet",
+            "Gestion des risques",
+            "Communication en cas de crise / avec la hiérarchie",
+            "Marketing organique / digitale",
+            "Drupal",
+            "Canva, Redmine, Teams"
+        ],
         "site_internet" : "https://www.planete-energies.com/fr",
         "instagram": "",
         "twitter": "https://twitter.com/PlaneteEnergies",
@@ -23,7 +37,18 @@
         "entreprise": "La 404 DeVinci",
         "category": "Projet associatif",
         "short_description": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "Le début de la guerre en Ukraine a propagé un vent de solidarité parmi les étudiants. La Vie Associative a encouragé les initiatives étudiantes à ce sujet : étant co-présidente de la 404 DeVinci à l’époque (association de développement web du Pôle Léonard de Vinci), j’ai eu l’idée de créer un site one page permettant de créer un point facile d’accès pour tous les étudiants.",
+            "L’idée était de mettre en avant les initiatives des autres associations, mais également de donner plus d’informations sur la mise en place d’une telle initiative ou sur la destination des dons qui allaient être faits.",
+            "Ce site a été réalisé en moins d’un mois, de la prise d’initiative à la mise en ligne en passant par la conception et le développement."
+        ],
+        "competences": [
+            "Gestion de projet accélérée",
+            "UX / UI avec Figma",
+            "Communication et relationnel",
+            "HTMl / CSS / Responsive",
+            "Rédaction des textes sur le site"
+        ],
         "site_internet" : "http://soutien-ukraine-devinci.fr/",
         "instagram": "https://www.instagram.com/la404.devinci/",
         "twitter": "",
@@ -39,7 +64,17 @@
         "entreprise": "La Tech pour toutes",
         "category": "Projet personnel",
         "short_description": "Participation à la Tech pour toutes, événement organisé par l'école 42 pour faire découvrir le domaine du numérique aux femmes de 7 à 77 ans.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facile d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "Du 11 au 13 mars 2022 s’est déroulé la deuxième édition de la Tech pour toutes à l’Ecole 42. Pendant trois jours, nous avions la possibilité d’assister à des conférences, tables rondes et ateliers autour de la tech. Comme le nom l’indique, cet événement est d’abord destiné aux femmes qui sont aujourd’hui trop peu représentées dans le secteur.",
+            "J’ai assisté aux conférences et tables rondes du samedi 12 mars, à savoir : la table ronde sur l’Intelligence Artificielle (avec des invites venant de Sorbonne Université, Datacraft, Flint, Renault Digital, EDF et Renault Group), la table ronde sur la formation aux métiers du numérique (42, COLORI, EdTech France, Konexio), une conférence sur les enjeux d’internet et une conférence sur l’avenir de nos jeunes entre soft skills et nouveaux métiers.",
+            "J’ai particulièrement apprécié cette journée qui a élargi mes horizons sur les sujets Tech. Cela m’a rappelé l’importance de la veille, et la nécessité dans ces métiers de discuter, partager, débattre pour créer un monde meilleur."
+        ],
+        "competences": [
+            "Découverte de l'IA",
+            "Ouverture à l'innovation",
+            "Curiosité",
+            "Veille technologique"
+        ],
         "site_internet" : "https://www.latechpourtoutes.fr",
         "instagram": "",
         "twitter": "",
@@ -55,7 +90,17 @@
         "entreprise": "Vis mon job",
         "category": "Projet personnel",
         "short_description": "Découverte d'un métier tech au sein de l'Etat avec une experte le temps d'une journée.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "Vis mon job est une opération lancée dans le cadre du programme TECH.GOUV et pilotée par la direction interministérielle du numérique (DINUM) en collaboration avec les ministères des Armées et de l’Économie et des Finances et de la Relance.",
+            "Destinée aux étudiants en préparation d’un bac+2 à bac+5 dans un cursus numérique, cette journée permet à un jeune de rencontrer un des experts du numérique de l’Etat directement dans son quotidien sur son lieu de travail.",
+            "Pour ma part, j’ai passé une journée avec une directrice de projet de transformation numérique au sein du ministère de la Culture. J’y ai découvert un métier et surtout le sens du service public. Cette expérience m’a beaucoup plu, je la conseille désormais aux autres étudiants de mon école !"
+        ],
+        "competences": [
+            "Gestion de projet",
+            "Découverte du service public et de l'Etat",
+            "Ouverture",
+            "Curiosité"
+        ],
         "site_internet" : "https://www.numerique.gouv.fr/actualites/vis-mon-job-agents-de-letat-faites-decouvrir-votre-metier-tech-a-des-etudiants/",
         "instagram": "",
         "twitter": "",
@@ -248,8 +293,8 @@
         "category": "Autre",
         "short_description": "Déléguée de classe en Terminale, 2ème et 3ème année d'études supérieures.",
         "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
-        "site_internet" : "https://parisgamesweek.com",
-        "instagram": "https://www.instagram.com/parisgamesweek/?hl=fr",
+        "site_internet" : "",
+        "instagram": "",
         "twitter": "",
         "youtube": "",
         "linkedin": "",
@@ -310,7 +355,7 @@
         "logo": "logo-bezons.webp",
         "entreprise": "Ecole Primaire",
         "category": "Alternance/Stage",
-        "short_description": "Stage de 3ème dans mon ancienne école primaire pour découvrir l'enseignement.",
+        "short_description": "Stage de 3ème dans mon ancienne école primaire pour découvrir le monde de l'enseignement.",
         "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
         "site_internet" : "",
         "instagram": "",
