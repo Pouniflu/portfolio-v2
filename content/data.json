@@ -116,7 +116,17 @@
         "entreprise": "LDV Esport",
         "category": "Projet associatif",
         "short_description": "En plein confinement, participation à l'élaboration du 1er forum associatif numérique du Pôle Léonard de Vinci.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "L’année 2020 a été marquée par la crise sanitaire de la Covid-19 et les nombreux confinements. La rentrée de septembre 2020 pour l’année scolaire 2020/2021 a elle aussi été touchée. En effet, chaque année se tient le forum associatif au Pôle Léonard de Vinci, permettant aux étudiants de découvrir les nombreuses associations du pôle et de postuler à celles qui les intéressent. Malheureusement, cet événement a dû être annulé et remplacé pour garantir la sécurité de tous.",
+            "Ainsi, le Bureau des Etudiants et l’association dont je faisais partie en tant que Secrétaire Générale, à savoir LDV Esport, se sont mobilisés pour imaginer un nouveau forum associatif virtuel. Main dans la main avec la Vie Associative, nous avons proposé de créer un site internet regroupant toutes les associations ainsi qu’un serveur Discord où chaque étudiant pourraient échanger de vive-voix avec les étudiants des associations (un peu comme un stand virtuel où chaque salon vocal correspond à une association). ",
+            "Nous nous sommes ainsi réparti les tâches : le BDE s’est occupé du site internet tandis que LDV Esport s’est occupé du serveur Discord. Plusieurs bots ont été créés pour l’occasion, permettant ainsi une modération plus simple en cas de problème (personne n’ayant pas connaissance de l’utilisation de Discord, bug, problème de comportement…). De mon côté, je faisais le relai entre LDV Esport, le BDE et la Vie Associative. Je me suis également occupée de la communication auprès des associations du Pôle qui avaient aussi un rôle à jouer. Le projet a duré un peu plus de 2 mois pendant les vacances d'été."
+        ],
+        "competences": [
+            "Gestion de projet",
+            "Communication",
+            "Relationnel",
+            "Discord"
+        ],
         "site_internet" : "",
         "instagram": "",
         "twitter": "",
@@ -132,7 +142,19 @@
         "entreprise": "La 404 DeVinci",
         "category": "Projet associatif",
         "short_description": "En pleine crise sanitaire, élaboration d'une nouvelle version du forum associatif numérique dirigée par la nouvelle association de développement web du Pôle.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "Si ce n’est pas déjà fait, je vous conseille d’aller voir le forum associatif numérique V1 sur mon portfolio, dans la catégorie « Projet associatif ».",
+            "En juin 2021, j’ai co-fondé la 404 DeVinci, association de développement web du Pôle Léonard de Vinci. Ayant travaillé l’année passée sur le forum associatif numérique, je me suis dit que nous pourrions pleinement prendre part au projet en retravaillant sur le site du forum. Bien qu’un site eût été réalisé l’année passée en Wordpress, il n’était pas optimal et quelques bugs étaient encore présents. Cela permettrait à la nouvelle association de s’implanter concrètement dans le paysage associatif du pôle avec un projet visible de tous les étudiants.",
+            "Ainsi, nous avons proposé cette idée à la Vie Associative avec de nouvelles maquettes respectant les points de vigilance soulevés l’année passée (charte graphique à respecter, logos à faire absolument apparaitre…). Le projet a été validé avec enthousiasme, ce qui a permis de mobiliser l'équipe projet pour démarrer.",
+            "J’ai travaillé avec Alexis Bougy et Nicolas de Garrigues sur ce site internet. Je me suis positionnée en tant que cheffe de projet et ai également travaillé sur les maquettes et le recettage. Le site a été fait en Symfony / Sass en 1 mois pendant les vacances d’été. C’est un projet dont je suis très fière, d’une part car il a permis à l’association de rayonner et d’autre part car c’est un site qui sera utilisable chaque année même si les forums associatifs reprennent en présentiel."
+        ],
+        "competences": [
+            "Gestion de projet",
+            "Rédaction d'un cahier des charges",
+            "Recettage",
+            "Teams, Trello, Discord",
+            "Communication et relationnel"
+        ],
         "site_internet" : "https://forum-associatif-numerique.fr",
         "instagram": "",
         "twitter": "",
@@ -141,15 +163,26 @@
         "facebook": ""
     },
     {
-        "slug": "devlab-hylki",
+        "slug": "bap-hylki",
         "title": "Bourse aux projets",
         "image": "bap-hylki.webp",
         "logo": "logo_bap_hylki.webp",
         "entreprise": "Hylki",
         "category": "Projet étudiant",
         "short_description": "Cheffe de projet d'une équipe de 5 étudiants en concurrence avec 3 autres équipes. Création d'un MVP pour notre client.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
-        "site_internet" : "",
+        "details": [
+            "En deuxième année à l’IIM, deux bourses aux projets ont lieu. Une bourse aux projets (BAP) consiste à travailler en petits groupes d’étudiants sur un véritable projet concret pour un client. Les étudiants sont mélangés entre eux et viennent d’axes différents (développement web, communication digitale, création et design). Plusieurs groupes d’étudiants travaillent généralement sur le même sujet pour le même client, ce qui crée une atmosphère challengeante où il faut se dépasser et innover sans relâche. Lors de ma deuxième BAP, j’ai travaillé pour Hylki en tant que cheffe de projet avec cinq autres étudiants. Nous étions en concurrence avec trois autres groupes, bien que nous ayons dû travailler ensemble sur certaines tâches comme l’élaboration du cahier des charges.",
+            "En deux mois et demi, nous devions créer un MVP (Minimum Viable Product) pour notre client. Seuls le logo et le pitch nous était fourni : à nous de proposer quelque chose d’innovant répondant aux critères, avec des technologies que nous avions choisies.",
+            "Durant toute la durée de la BAP, j’ai régulièrement été en contact avec le client pour récolter ses feedbacks et éclaircir les zones d’ombre éventuelles. J’ai également géré le planning de mon équipe et vérifié les développements lors des phases de recette. A la fin, nous avons réalisé une présentation en showroom devant un jury, où nous avions préparé des affiches et vidéos en plus."
+        ],
+        "competences": [
+            "Gestion de projet",
+            "Gestion d'équipe",
+            "Communication et relationnel",
+            "Rédaction d'un cahier des charges",
+            "Jira, Discord"
+        ],
+        "site_internet" : "https://www.iim.fr/tag/bap/",
         "instagram": "",
         "twitter": "",
         "youtube": "",
@@ -164,7 +197,16 @@
         "entreprise": "Industreet",
         "category": "Projet personnel",
         "short_description": "Intervenante dans une table ronde pour parler de mon expérience d'Alternante chez TotalEnergies et plus globalement, devant un public d'enseignants.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "À l’occasion de la semaine de l’industrie du 22 au 28 novembre 2021, j’ai eu l’occasion d’intervenir dans une table ronde sur les opportunités d’emploi pour les jeunes dans le secteur, alternance et apprentissage à l’Industreet. Le public était composé d’enseignants et de jeunes intéressés par les métiers de l’industrie.",
+            "L’Industreet a pour vocation de former à des métiers industriels en tension dont la technicité évolue rapidement et, in fine, de contribuer à l'insertion professionnelle. Le campus, ouvert fin 2020, accueille gratuitement des jeunes de 18 à 30 ans avec ou sans qualification.",
+            "Cette belle opportunité m’a permis de vivre ma première table ronde, que ce soit en tant que spectatrice ou en tant qu’invitée. J’apprécie particulièrement partager mon expérience, c’est pourquoi j’ai beaucoup aimé cette aventure !"
+        ],
+        "competences": [
+            "Prise de parole en public",
+            "Découverte des métiers de l'industrie",
+            "Ouverture et curiosité"
+        ],
         "site_internet" : "",
         "instagram": "",
         "twitter": "https://twitter.com/lindustreet/status/1462714844084383744?s=20&t=vT1eB_oPIeAcyqszhbppNQ",
@@ -180,7 +222,18 @@
         "entreprise": "LDV Esport",
         "category": "Projet étudiant",
         "short_description": "Cheffe de projet et responsable UX/UI. Réalisation d'un site de tournoi pour l'association LDV Esport en équipe de 6.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "Chaque année au sein de l’axe Coding & Digital Innovation à l’IIM a lieu un Devlab. Le devlab consiste à travailler toute l’année avec une équipe d’étudiant sur un projet choisi en début d’année. Cela nous permet d’améliorer nos compétences en gestion de projet et en travail d’équipe, mais également d’améliorer notre projet en fonction des connaissances apprises durant l’année. C’est un moyen de mise en pratique bienvenu lorsqu’on est étudiant et cela crée une vraie expérience.",
+            "En deuxième année, j’ai travaillé avec cinq autres étudiants de l’axe Coding & Digital Innovation sur un site de tournoi en ligne pour l’association LDV Esport. Nous avions peu de consignes et un cahier des charges très maigres sur les attendus, c’est pourquoi nous avons décidé de prendre les choses en main et de proposer notre vision du projet à notre client. Ce dernier l’a validé, ce qui nous a permis de continuer sur notre lancée.",
+            "Sur ce projet, j’ai eu le rôle de cheffe de projet et de responsable UX/UI. Nous avons réalisé des maquettes ordinateur et mobile sur Adobe XD avant de les intégrer en Laravel / Tailwind. Etant adepte de Tailwind, j’ai également participé à l’intégration des maquettes. Le projet s’est fait en mode agile, avec des demo-or-die qu’il fallait rendre tous les deux mois environ. Un demo-or-die est une sorte de revue de projet à la fin du sprint, qui permet de mesurer l’avancement et de faire des feedbacks sur le travail passé."
+        ],
+        "competences": [
+            "Gestion de projet",
+            "Méthode agile",
+            "Monday / Discord",
+            "UX / UX avec Adobe XD",
+            "Travail d'équipe"
+        ],
         "site_internet" : "https://www.devinci.fr/vie-etudiante/associations-etudiantes/ldv-esport/",
         "instagram": "https://www.instagram.com/ldvesport/",
         "twitter": "https://twitter.com/ldvesport",
@@ -196,7 +249,15 @@
         "entreprise": "Foire d'automne",
         "category": "Projet personnel",
         "short_description": "Participation à la Foire d'Automne 2021 et découverte d'innovations. ",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "La foire d’Automne 2021 a réuni 450 exposants sur près de 25 000m2 de salon. Des nouveautés étaient présentes, comme un espace dédié aux jeunes créateurs français.",
+            "Aller à de tels salons me permet de m’ouvrir aux dernières innovations et de découvrir des innovations. Cela me permet d’être plus créatives une fois rentrée chez moi ou au travail ! Je pense qu’il est important de s’accorder du temps pour ce genre d’événement."
+        ],
+        "competences": [
+            "Ouverture",
+            "Découverte d'innovations",
+            "Créativité"
+        ],
         "site_internet" : "https://www.foiredeparis.fr/foiredautomne",
         "instagram": "",
         "twitter": "",
@@ -212,7 +273,19 @@
         "entreprise": "LDV Esport",
         "category": "Autre",
         "short_description": "Grand Associatif de l'association LDV Esport pendant mon année en tant que membre du bureau.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "Le statut de Grand Associatif permet de valoriser les compétences acquises grâce à un fort investissement durable dans son association au travers de crédits ECTS nécessaires à l'obtention d'un diplôme.",
+            "Seules les associations partenaires avec le Pôle Universitaire Léonard de Vinci peuvent avoir des Grands Associatifs. Les associations partenaires (dont LDV Esport fait partie) font rayonner le Pôle aussi bien à l'intérieur qu'à l'extérieur."
+        ],
+        "competences": [
+            "Rédaction de convention et du règlement de l'association",
+            "Définission de la vision, des objectifs et des besoins",
+            "Budget et financement",
+            "Stratégie de communication et de partenariat",
+            "Planification",
+            "Gestion des risques",
+            "Gestion d'équipe (association de 150 membres)"
+        ],
         "site_internet" : "",
         "instagram": "",
         "twitter": "",
@@ -228,7 +301,17 @@
         "entreprise": "LDV Esport",
         "category": "Projet associatif",
         "short_description": "Responsable du tournoi Overwatch et community manager sur l'événement qui a permis de récolter près de 62 500€ de dons.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "La 14aine Esport est un événement caritatif mis en place par l’association LDV Esport - association esportive du Pôle Léonard de Vinci – pendant le confinement de 2020. Il avait pour objectif de rassembler et mobiliser la communauté compétitrice et spectatrice du milieu du gaming, afin de lever des fonds pour deux associations caritatives dans la lutte contre la propagation du COVID-19 : l’Association Les Petits Frères des Pauvres et La fondation des hôpitaux de Paris et hôpitaux de France.",
+            "Pendant deux semaines, sept tournois se sont déroulés sur différents jeux : League of Legends, Overwatch, Hearthstone, Rocket League, Teamfight Tactics… Chaque soir de la deuxième semaine avait lieu une finale sur un des jeux. En parallèle, un marathon de stream caritatif a également été organisé qui a duré 14 jours non-stop, 7j/7 24h/24. Cet événement a permis de récolter près de 62 500€ de dons.",
+            "De mon côté, j’ai vécu cet événement en tant que staff pour le tournoi sur Overwatch. J’ai également été community manager sur l’événement et en ai fait la promotion en interne directement auprès des étudiants du Pôle Léonard de Vinci, mais également sur Twitter. Etant dans le pôle communication de l’association, j’ai travaillé main dans la main avec le pôle direction artistique pendant toute la durée de l’événement."
+        ],
+        "competences": [
+            "Travail d'équipe",
+            "Communication interne sur Discord et externe sur Twitter et Yammer",
+            "Gestion des problèmes",
+            "Accompagnement des joueurs sur le tournoi"
+        ],
         "site_internet" : "https://14aine-esport.playce.gg/fr",
         "instagram": "",
         "twitter": "https://twitter.com/LDVEsport/status/1244564310556377088?s=20&t=vT1eB_oPIeAcyqszhbppNQ",
@@ -243,8 +326,18 @@
         "logo": "logo_ldvesport.webp",
         "entreprise": "LDV Esport",
         "category": "Projet associatif",
-        "short_description": "Organisation d'un événement carritatif à destination des étudiants dans le besoin : 1 302€ récoltés en 1 semaine.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "short_description": "Organisation d'un événement caritatif à destination des étudiants dans le besoin : 1 302€ récoltés en 1 semaine.",
+        "details": [
+            "La crise de la Covid-19 a touché de nombreuses personnes et en particulier de nombreux étudiants. Nous-mêmes étant étudiants, nous avons décidé de les aider et de créer un événement caritatif pour lutter contre l’isolement et la précarité étudiante.",
+            "Lorsque je faisais partie du bureau de l’association LDV Esport, j’ai participé à l’organisation des Charity Contenders, événement caritatif à destination des AGORAé. Ce tournoi déstinée à toutes les associations de France s’est décomposé en trois challenges : un challenge compétition sur 4 jeux (Teamfights Tactics, Valorant, League of Legends et Rocket League), un challenge coopération où l’objectif était de diffuser le maximum de contenu sur Twitch pour récolter le plus de dons, et enfin un challenge solidaire où il fallait que l’association récolte le plus de dons.",
+            "En 1 semaine, nous avons réussi à récolter 1302,23€."
+        ],
+        "competences": [
+            "Gestion de projet",
+            "Gestion d'équipe",
+            "Planification",
+            "Communication sur Twitter, Yammer et Discord"
+        ],
         "site_internet" : "",
         "instagram": "",
         "twitter": "https://twitter.com/fede_esport/status/1375134112068083712?s=20&t=35nzIB7oh0wlCUuoU03Teg",
@@ -260,8 +353,18 @@
         "entreprise": "Altran",
         "category": "Projet étudiant",
         "short_description": "Experte web au sein d'une équipe d'étudiants et sous l'égide d'un chef de projet. Maquettage et intégration de nouvelles maquettes pour Anagreen (Altran).",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
-        "site_internet" : "",
+        "details": [
+            "En deuxième année à l’IIM, deux bourses aux projets ont lieu. Une bourse aux projets (BAP) consiste à travailler en petits groupes d’étudiants sur un véritable projet concret pour un client. Les étudiants sont mélangés entre eux et viennent d’axes différents (développement web, communication digitale, création et design). Plusieurs groupes d’étudiants travaillent généralement sur le même sujet pour le même client, ce qui crée une atmosphère challengeante où il faut se dépasser et innover sans relâche. Lors de ma première BAP, j’ai travaillé pour Altran sur le projet Anagreen, qui consistait à faire une refonte graphique d’une plateforme utilisée par les salariés / ouvriers de l’entreprise dans leur travail quotidien.",
+            "J’ai eu le rôle d’experte web et ai travaillé sur les wireframes et la partie UX du site. Nous étions un groupe de neuf étudiants : trois chefs de projet en année supérieure, et six étudiants de deuxième année avec à chaque fois deux étudiants dans un axe (communication digitale et e-business, développement web et création et design). Chacun avait un rôle à jouer et des connaissances à apporter pour que le projet se déroule de la meilleure des façons. Nous étions en concurrence avec quatre autres groupes d’étudiants, ce qui apportait du challenge au projet.",
+            "Mes principales missions ont été la création des wireframes, l’intégration des nouveaux éléments graphiques apportés par les experts créa et du code refactoring. Nous avons travaillé en mode agile sur Trello."
+        ],
+        "competences": [
+            "HTML / CSS",
+            "Github",
+            "Trello",
+            "Wireframes avec Adobe XD"
+        ],
+        "site_internet" : "https://capgemini-engineering.com/fr/fr/case_study/anagreen-valoriser-lenergie-perdue/?msclkid=31e945b8ced511ec961e6d015751409e",
         "instagram": "",
         "twitter": "",
         "youtube": "",
@@ -276,7 +379,17 @@
         "entreprise": "LDV Esport",
         "category": "Projet associatif",
         "short_description": "Supervision du tournoi inter-associatif au Pôle Léonard de Vinci en collaboration avec le Bureau des Etudiants (BDE) pendant le confinement.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "En novembre 2020, lors du deuxième confinement, le Bureau des Etudiants et l’association LDV Esport dont je faisais partie en tant que membre du bureau se sont mobilisés pour une semaine de tournois entre les associations du Pôle Léonard de Vinci.",
+            "L’association esportive a géré un tournoi qui a réuni près de 21 associations pour 199 joueurs sur différents jeux comme League of Legends, Brawlhalla ou Minecraft. 41 staffs ont activement organisé l’événement. Quant à lui, le BDE a organisé des défis tout au long de la semaine, permettant aux associations de gagner des points supplémentaires au classement général. Tous les matchs étaient retransmis sur la chaîne twitch de LDV Esport et commentés par des étudiants de l’association.",
+            "Cet événement a permis au Pôle et aux associations de retrouver une bonne dynamique qui s’étaient un peu perdues à la suite du premier confinement. Nous avons trouvé un moyen de rassembler les étudiants et avons mis en œuvre cette idée qui fût un succès et réitérer l’année suivante, avec un format légèrement différent.",
+            "Je me suis principalement occupée de la communication autour de cet événement et de la gestion du staff sur chaque tournoi. J’étais également le point de contact avec les autres associations et je faisais le relai avec l’équipe de la Vie Associative. "
+        ],
+        "competences": [
+            "Gestion d'équipe",
+            "Communication sur Facebook / Twitter / Yammer / Discord",
+            "Relationnel"
+        ],
         "site_internet" : "https://www.iim.fr/associations-pole-leonard-de-vinci-se-mobilisent-lors-du-deuxieme-confinement/",
         "instagram": "",
         "twitter": "",
@@ -292,7 +405,17 @@
         "entreprise": "Déléguée de classe",
         "category": "Autre",
         "short_description": "Déléguée de classe en Terminale, 2ème et 3ème année d'études supérieures.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "Selon moi, pouvoir s’impliquer dans la vie de son école / de son université est une chance et une opportunité qu’il faut saisir. ",
+            "J’ai été déléguée de classe en Terminale ainsi qu’en deuxième et en troisième année d’études supérieures. J’ai préparé et assisté aux conseils de classe et j’ai fait remonter les feedbacks des étudiants, que ce soit au professeur ou à l’administration."
+        ],
+        "competences": [
+            "Préparation des conseils de classe",
+            "Google Forms / Microsoft Forms",
+            "Remontée des incidents",
+            "Partage des feedbacks",
+            "Accompagnement des étudiants"
+        ],
         "site_internet" : "",
         "instagram": "",
         "twitter": "",
@@ -308,7 +431,15 @@
         "entreprise": "Baijy",
         "category": "Alternance/Stage",
         "short_description": "Réalisation entière du site internet de l'entreprise sur e-monsite.com en deux semaines et en partant de 0.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "SDJB BAIJY est une société de distribution de matériel et accessoires pour les industries, laboratoires, cosmétiques et agro-alimentaires.",
+            "Pendant 2 semaines, à l’occasion de mon stage de seconde, j’ai eu pour mission de refaire totalement le site internet de la société en utilisant le CMS e-monsite. Je n’avais alors aucune connaissance en refonte de site internet et encore moins en CMS. J’ai tout appris de 0 et suis plutôt fière du résultat, de même que mon client."
+        ],
+        "competences": [
+            "Refonte de site web",
+            "CMS e-monsite",
+            "Apprendre sur le tas"
+        ],
         "site_internet" : "http://www.baijy.com",
         "instagram": "",
         "twitter": "",
@@ -324,7 +455,15 @@
         "entreprise": "Lycée Jean-Paul II",
         "category": "Projet étudiant",
         "short_description": "Organisation de la journée des Terminales, soit plus de 200 personnes à la fin de l'année.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "A la fin de chaque année en terminale, mon lycée organise une journée spéciales où les élèves se déguisent et profitent de leurs derniers instants avant les épreuves du baccalauréat. Cette journée est organisée par les élèves eux-mêmes : appréciant m’impliquer dans la vie de mon école, j’ai de suite saisi cette opportunité et ai rejoint ce projet.",
+            "Au sein d’un groupe de 10-15 personnes, nous avons déterminé les activités en lien avec le budget qui ne devaient pas être trop important. J’ai pris contact avec une société proposant des structures gonflables à la location, que nous avons mis dans la cour du lycée et dans la salle commune. Nous avons également préparé le menu main dans la main avec le service de cantine. Un autre groupe s’est occupé de l’animation de l’après-midi et des spectacles faits par les élèves. Cette journée fût une réussite !"
+        ],
+        "competences": [
+            "Gestion de projet",
+            "Travail d'équipe",
+            "Communication et relationnel"
+        ],
         "site_internet" : "http://www.ind78.fr/lycee_Jean_Paul_II/index.php",
         "instagram": "",
         "twitter": "",
@@ -340,7 +479,19 @@
         "entreprise": "Eldergame",
         "category": "Projet personnel",
         "short_description": "Administratrice d'un serveur de jeu sur Garry's Mod et augmentation du nombre de membre dans la communauté (100 à 1 800 personnes en 1 an et demi)",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "Eldergame est une communauté d'environ 2000 personnes basée sur le jeu Garry's Mod et ayant auparavant 2 serveurs de jeu à gérer. Lorsque je suis arrivée, nous étions moins d'une centaine. Lorsque je suis partie, il y avait un peu moins de 2000 personnes.",
+            "J’ai occupé plusieurs postes : tout d’abord, j’ai été modératrice d’un serveur de jeu. Cela consistait en surveiller les joueurs afin que l’expérience de jeu de chacun soit sans encombre. Ensuite, j’ai été responsable du serveur de jeu : je gérais les modérateurs et gérais la plateforme de référencement de tous les joueurs présents ou ayant été présents sur le serveur. Ensuite, je suis passée rédactrice pour les annonces ou les comptes-rendus de réunion. Enfin, je suis passée administratrice et gérais entre 15 et 30 personnes. Pendant cette période, j’assistais chaque samedi soir à des réunions hebdomadaires pour faire remonter les feedbacks, échanger sur les nouvelles idées et valoriser les staffs les plus impliqués sur le mois."
+        ],
+        "competences": [
+            "Gestion d'équipe",
+            "Force de proposition",
+            "Planification de réunion et compte-rendu",
+            "Rédaction",
+            "Communication avec les joueurs et le staff",
+            "Modération de serveurs de jeu",
+            "TeamSpeak, Discord, Steam, Game Tracker"
+        ],
         "site_internet" : "https://steamcommunity.com/groups/eldergame",
         "instagram": "",
         "twitter": "https://twitter.com/elder_game",
@@ -356,7 +507,16 @@
         "entreprise": "Ecole Primaire",
         "category": "Alternance/Stage",
         "short_description": "Stage de 3ème dans mon ancienne école primaire pour découvrir le monde de l'enseignement.",
-        "details": "Conception d'un site internet permettant aux étudiants d'avoir un point simple et facle d'accès pour répondre à toutes leurs questions sur la mobilisation pour l'Ukraine.",
+        "details": [
+            "J’ai choisi de réaliser mon stage de 3ème dans mon ancienne école primaire à Bezons. En effet, le milieu de l’enseignement m’a toujours intéressée. Pendant 1 semaine, j’ai découvert le fonctionnement d’une classe, la manière d’organiser les cours dans une journée et de faire face aux imprévus.",
+            "Je suis sensible aux questions touchant à l’éducation et apprécie travailler sur ces sujets, de la maternelle jusqu’aux études supérieures."
+        ],
+        "competences": [
+            "Découverte du monde de l'enseignement vu de l'intérieur",
+            "Gestion des emplois du temps",
+            "Observation",
+            "Curiosité"
+        ],
         "site_internet" : "",
         "instagram": "",
         "twitter": "",
