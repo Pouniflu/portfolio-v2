@@ -3,8 +3,8 @@
         <img src="../assets/img/illustration-home.png" alt="">
         <div>
             <h2>Présentation</h2>
-            <p>Je m’appelle Claire Brisbart et suis actuellement étudiante en 3ème année à l’IIM Digital School afin d’obtenir un diplôme “Chef de projet digital”. 
-            <br>J’aime particulièrement la gestion de projet web et l’UX/UI design.</p>
+            <p>Je m’appelle Claire Brisbart et suis actuellement étudiante en 3ème année à l’IIM Digital School afin d’obtenir un diplôme « Chef de projet digital ».  Je souhaite poursuivre mes études en intégrant le mastère « Management de la transformation digitale » à l’IIM, spécialité conduite du changement et innovation. Double diplôme avec l’ESILV – Ecole Supérieure d'Ingénieurs Léonard de Vinci, il prépare les étudiants à répondre aux nouveaux besoins des entreprises en axant la formation sur un socle de compétences en gestion de produit et sur l’agilité nécessaire à mener des changements en continu. 
+            <br><br>Plus personnellement, j’aime m’impliquer dans tous mes projets et je souhaite désormais saisir toutes les opportunités qui se présentent à moi. J’aime l’UX, l’UI design, l'astrologie et le monde de l’esport.</p>
         </div>
     </div>
 </template>

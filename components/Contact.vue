@@ -17,7 +17,7 @@
         </div>
         <footer>
         <p>
-            © Copyright Claire Brisbart 2022 - Tous droits réservés | <a href="#">Mentions légales</a>
+            © Copyrights Claire Brisbart 2022 - Tous droits réservés
         </p>
         </footer>
     </div>

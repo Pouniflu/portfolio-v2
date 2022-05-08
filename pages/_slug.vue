@@ -4,7 +4,16 @@
         <div v-if="project.details" class="project-page" id="body">
             <div class="project-page-title">
                 <h2>Description</h2>
-                <span>{{ project.category }}</span>
+                <span :style="{ backgroundColor: project.category == 'Alternance/Stage' 
+                                                         ?   '#F97F9C'
+                                                         : project.category == 'Projet étudiant'
+                                                                            ? '#FC9E4F'
+                                                                            : project.category == 'Projet personnel'
+                                                                                                ? '#93E7D3'
+                                                                                                : project.category == 'Projet associatif'
+                                                                                                                    ? '#B9D8FD'
+                                                                                                                    : '#AC85FE'
+                }">{{ project.category }}</span>
             </div>
             <p v-for="n in project.details.length" :key="n">{{ project.details[n-1] }}<br></p>
             <div class="project-page-button">
