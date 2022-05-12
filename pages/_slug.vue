@@ -34,6 +34,7 @@
                 </a>
             </div>
             <competences-project :project="project" />
+            <media-project :project="project" />
         </div>
         <contact />
     </div>
@@ -42,12 +43,14 @@
 <script>
 import projects from '~/content/data'
 import BannerProject from '~/components/BannerProject.vue'
+import MediaProject from '~/components/MediaProject.vue'
 import CompetencesProject from '~/components/CompetencesProject.vue'
 
 export default {
     name: 'projet-page',
     components: { 
         BannerProject, 
+        MediaProject,
         CompetencesProject, 
     },
     data() {

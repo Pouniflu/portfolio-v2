@@ -27,7 +27,13 @@
         "twitter": "https://twitter.com/PlaneteEnergies",
         "youtube": "https://www.youtube.com/c/planete-energies",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "medias": [
+            "assistante-cdp-totalenergies/planete_energies_website.webp",
+            "assistante-cdp-totalenergies/tweet_planete_energies_energieMarine.webp",
+            "assistante-cdp-totalenergies/tweet_planete_energies_gazoducs.webp",
+            "assistante-cdp-totalenergies/youtube_planete_energies.webp"
+        ]
     },
     {
         "slug": "la-404-devinci-site-ukraine",
@@ -54,7 +60,12 @@
         "twitter": "",
         "youtube": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "medias": [
+            "404-ukraine/404-ukraine-website.webp",
+            "404-ukraine/404-ukraine-figma.webp",
+            "404-ukraine/404-ukraine-instagram.webp"
+        ]
     },
     {
         "slug": "la-tech-pour-toutes",
@@ -80,7 +91,14 @@
         "twitter": "",
         "youtube": "https://www.youtube.com/watch?v=EJwO4FK4J5M&list=PLVQYiy6xNUxxyjf4wYJ0AXX-FXgqKlKG4",
         "linkedin": "https://www.linkedin.com/posts/claire-brisbart_latechpourtoutes-numaezrique-intelligenceartificielle-activity-6909168430931709952-yU7e?utm_source=linkedin_share&utm_medium=member_desktop_web",
-        "facebook": ""
+        "facebook": "",
+        "medias": [
+            "la-tech-pour-toutes/la_tech_pour_toutes_sac.webp",
+            "la-tech-pour-toutes/la_tech_pour_toutes_conference.webp",
+            "la-tech-pour-toutes/la_tech_pour_toutes_table_ronde_1.webp",
+            "la-tech-pour-toutes/la_tech_pour_toutes_table_ronde_2.webp",
+            "la-tech-pour-toutes/la_tech_pour_toutes_locaux.webp"
+        ]
     },
     {
         "slug": "vis-mon-job",
@@ -212,7 +230,10 @@
         "twitter": "https://twitter.com/lindustreet/status/1462714844084383744?s=20&t=vT1eB_oPIeAcyqszhbppNQ",
         "youtube": "",
         "linkedin": "https://www.linkedin.com/posts/claire-brisbart_alternance-apprentissage-daezvelopper-activity-6869655429866160128-4vZp?utm_source=linkedin_share&utm_medium=member_desktop_web",
-        "facebook": ""
+        "facebook": "",
+        "medias": [
+            "table-ronde-industreet/industreet-table-ronde-alternance.webp"
+        ]
     },
     {
         "slug": "devlab-ldv-esport",
@@ -291,7 +312,14 @@
         "twitter": "",
         "youtube": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "medias": [
+            "ldv-ga/ldv-ga-claire.webp",
+            "ldv-ga/ldv-ga-asso.webp",
+            "ldv-ga/ldv-ga-esport.webp",
+            "ldv-ga/ldv-ga-asso2.webp",
+            "ldv-ga/ldv-ga-level46.webp"
+        ]
     },
     {
         "slug": "14aine-esport",
